@@ -5,7 +5,8 @@ using UnityEngine;
 
 namespace MinShigee
 {
-    public class EventManager{
+    public class EventManager : MonoBehaviour
+    {
 	
     	public static EventManager singleton {get; private set;} = null;
 		private void Awake(){
@@ -17,11 +18,11 @@ namespace MinShigee
         public void MakeSingleton(){
 			if(singleton == null){
                 singleton = this;
-                Debug.log("EventManager Loaded");
+                Debug.Log("EventManager Loaded");
             }
             else{
                 Destroy(this);
-                Debug.log("Remove EventManager");
+                Debug.Log("Remove EventManager");
             }
         }
         #endregion

@@ -10,10 +10,6 @@ public class DataManager : MonoBehaviour
     }
 
     #region Make Singleton 
-
-    /// <summary>
-    /// singleton 생성
-    /// <summary/>
     public static DataManager singleton {get; private set;} = null;
     private void MakeSingleton(){
         if(singleton == null){

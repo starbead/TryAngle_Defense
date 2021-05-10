@@ -1,9 +1,11 @@
-using UnityEngine;
 using System.Collections;
+using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace MinZu{
-    public class PlaySceneUIManager{
+    public class PlaySceneUIManager : MonoBehaviour
+    {
 		public static PlaySceneUIManager singleton {get; private set; } = null;
 
         #region Make Singleton
@@ -12,12 +14,12 @@ namespace MinZu{
             if(singleton == null){
 
 				singleton = this;
-                Debug.log("PlaySceneManager loaded.");
+                Debug.Log("PlaySceneManager loaded.");
 
             }
             else{
 				Destroy(this);
-                Debug.log("Destroy PlaySceneManager");
+                Debug.Log("Destroy PlaySceneManager");
             }
         }
 
