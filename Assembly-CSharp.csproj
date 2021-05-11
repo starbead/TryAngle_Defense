@@ -43,6 +43,7 @@
      <Compile Include="Assets\Scripts\MiddleWare\DataManager.cs" />
      <Compile Include="Assets\Scripts\Interface\IMoveable.cs" />
      <Compile Include="Assets\Scripts\Interface\IDamageable.cs" />
+     <Compile Include="Assets\Scripts\Interface\IEventManager.cs" />
      <Compile Include="Assets\Scripts\MiddleWare\PlaySceneUIManager.cs" />
      <Compile Include="Assets\Scripts\Interface\ISkillable.cs" />
      <Compile Include="Assets\Scripts\Interface\IAttackable.cs" />
