@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\Interface\ISkillable.cs" />
      <Compile Include="Assets\Scripts\Interface\IAttackable.cs" />
      <Compile Include="Assets\Scripts\Class\Attackable.cs" />
+     <Compile Include="Assets\Scripts\Interface\IGameEvent.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:/Unity Hub/Hub/2021.1.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
